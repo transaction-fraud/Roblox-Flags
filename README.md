@@ -3,7 +3,7 @@
 
 A repository for every single available flag in the allowlist and an explanation of what they do.
 
-###### [If you wish to use these flags, Bloxstrap is recommended for Windows, Appleblox for MacOS and Sober for Linux. Refer to their websites on how to use flags for their software]
+###### [If you wish to use these flags, the following bootstrappers are recommended if applicable: Bloxstrap for Windows, Appleblox for MacOS and Sober for Linux. Refer to their websites on how to use flags for their software]
 ###### [Roblox fast flags are intended only for developers and engineers, there may be flags removed or added at any time to the allowlist. This repository is for educational purposes only, and any usage is at your own risk.]
 ##### [Only default values are shown here]
 ### CSG Level of Detail (LOD) Switching Distance
