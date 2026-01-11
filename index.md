@@ -1,7 +1,7 @@
 ---
 title: Roblox Flags
 description: A repository documenting every available allowlisted Roblox fast flag, their default values, and explanations.
-sidebar: auto
+has_toc: true
 ---
 ![CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)
 
@@ -34,7 +34,7 @@ When ``"DFFlagTextureQualityOverrideEnabled"`` is true, allows the integar flag 
     "DFIntTextureQualityOverride": 3
 ```
 
-### Force MSAA Samples
+### Force MSAA Sampling
 Controls the MSAA (Multi-Sample Anti-Aliasing) level, only valid values are 0, 1, 2, 4, 8 (anything higher and it will default back to 8 and anything higher than 4 breaks viewports). This flag dynamically changes depending on the users graphics level so becomes useless when using something that forces it (``"DFIntDebugFRMQualityLevelOverride"``).
 
 ```text
@@ -106,4 +106,4 @@ Flemish for his [repository](https://github.com/LeventGameing/allowlist/blob/mai
 
 [Bloxstrap Wiki](https://github.com/bloxstraplabs/bloxstrap/wiki)
 
-###### V1.0.3
+###### V1.0.4
