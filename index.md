@@ -9,9 +9,11 @@ nav_exclude: true
 
 A repository for every single available flag in the allowlist and an explanation of what they do.
 
-###### [If you wish to use these flags, the following bootstrappers are recommended if applicable: Bloxstrap for Windows, Appleblox for MacOS and Sober for Linux. Refer to their websites on how to use flags for their software]
-###### [Roblox fast flags are intended only for developers and engineers, there may be flags removed or added at any time to the allowlist. This repository is for educational purposes only, and any usage is at your own risk.]
-##### [Only default values are shown here]
+> If you wish to use these flags, the following bootstrappers are recommended if applicable: Bloxstrap for Windows, Appleblox for MacOS and Sober for Linux. Refer to their websites on how to use flags for their software
+
+> Roblox fast flags are intended only for developers and engineers, there may be flags removed or added at any time to the allowlist. This repository is for educational purposes only, and any usage is at your own risk.
+
+> Only default values are shown here
 ### CSG Level of Detail (LOD) Switching Distance
 Controls the quality or detail of a mesh at a distance (each level represents a lower quality (L34 being the lowest) and the values define what distance each level activates at).
 ```text
@@ -108,4 +110,4 @@ Flemish for his [repository](https://github.com/LeventGameing/allowlist/blob/mai
 
 [Bloxstrap Wiki](https://github.com/bloxstraplabs/bloxstrap/wiki)
 
-###### V1.0.4
+> [V1.0.5](https://github.com/transaction-fraud/Roblox-Flags)
