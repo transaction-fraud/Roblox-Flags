@@ -4,6 +4,7 @@ description: A repository documenting every available allowlisted Roblox fast fl
 has_toc: true
 nav_exclude: true
 ---
+## Roblox Flags
 ![CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)
 
 A repository for every single available flag in the allowlist and an explanation of what they do.
