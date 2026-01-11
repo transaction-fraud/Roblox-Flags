@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Roblox Flags
 description: A repository documenting every available allowlisted Roblox fast flag, their default values, and explanations.
 sidebar: auto
@@ -107,4 +106,4 @@ Flemish for his [repository](https://github.com/LeventGameing/allowlist/blob/mai
 
 [Bloxstrap Wiki](https://github.com/bloxstraplabs/bloxstrap/wiki)
 
-###### V1.0.2
+###### V1.0.3
