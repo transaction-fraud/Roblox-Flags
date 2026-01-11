@@ -67,7 +67,7 @@ When true, forces the rendering API to use Vulkan, the successor of OpenGL, unli
 An older rendering engine, and is often used as a fallback API when the current system does not support D3D11 or Vulkan. Note: MacOS no longer has OpenGL updated on their systems.
 
 
-```json
+```text
     "FFlagDebugGraphicsPreferOpenGL": false
 ```
 
@@ -81,7 +81,7 @@ Sets the sky to be gray, or not. Only works on games that use Roblox's default s
 ### Pause Voxelizer
 When true while using voxel lighting (NO LONGER POSSIBLE USING ALLOWLIST), removes all shadows and lighting. This makes some games far darker or brighter than expected. 
 
-```json
+```text
     "DFFlagDebugPauseVoxelizer": false
 ```
 
