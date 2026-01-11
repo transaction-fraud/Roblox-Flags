@@ -1,1 +1,14 @@
-theme: jekyll-theme-primer
+title: Roblox Flags
+baseurl: ""
+url: ""
+theme: "just-the-docs"
+
+just-the-docs:
+  homepage: index.md
+  show_sidebar: true
+  search_enabled: true
+  collapse_navigation: true
+
+markdown: kramdown
+kramdown:
+  toc_levels: 1..3
