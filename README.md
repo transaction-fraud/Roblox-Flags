@@ -8,7 +8,7 @@ A repository for every single available flag in the allowlist and an explanation
 ##### [Only default values are shown here]
 ### CSG Level of Detail (LOD) Switching Distance
 Controls the quality or detail of a mesh at a distance (each level represents a lower quality (L34 being the lowest) and the values define what distance each level activates at).
-```json
+```text
     "DFIntCSGLevelOfDetailSwitchingDistance": 250,
     "DFIntCSGLevelOfDetailSwitchingDistanceL12": 500,
     "DFIntCSGLevelOfDetailSwitchingDistanceL23": 750,
