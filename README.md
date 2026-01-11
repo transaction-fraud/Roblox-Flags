@@ -18,14 +18,14 @@ Controls the quality or detail of a mesh at a distance (each level represents a 
 ### Handle Alt Enter Manually
 By default this is always true, allows you to enter exclusive fullscreen (aka FSE) by pressing alt+enter instead of F11. The primary reason why you might use exclusive fullscreen over borderless as it gives Roblox direct control over the display, bypassing DWM. This has some noticeable performance improvements though it makes alt tabbing much worse and Roblox incompatible with certain overlays.
 
-```json
+```text
     "FFlagHandleAltEnterFullscreenManually": true
 ```
 
 ### Texture Quality Override
 When ``"DFFlagTextureQualityOverrideEnabled"`` is true, allows the integar flag to work below. The value (for ``"DFIntTextureQualityOverride"``) controls the texture quality level of Roblox, 0 being the lowest quality and 3 being the highest. The effect is similar to the original SkipMips flag, where objects and effects appear blurred or square the lower the value.
 
-```json
+```text
     "DFFlagTextureQualityOverrideEnabled": false,
     "DFIntTextureQualityOverride": 3
 ```
@@ -33,27 +33,27 @@ When ``"DFFlagTextureQualityOverrideEnabled"`` is true, allows the integar flag 
 ### Force MSAA Samples
 Controls the MSAA (Multi-Sample Anti-Aliasing) level, only valid values are 0, 1, 2, 4, 8 (anything higher and it will default back to 8 and anything higher than 4 breaks viewports). This flag dynamically changes depending on the users graphics level so becomes useless when using something that forces it (``"DFIntDebugFRMQualityLevelOverride"``).
 
-```json
+```text
     "FIntDebugForceMSAASamples": 0
 ```
 
 ### Disable DPI Scaling
 When true, fixes Roblox's rendering quality decreasing when having a display scale greater than 100%.
 
-```json
+```text
     "DFFlagDisableDPIScale": false
 ```
 
 ### Prefer DirectX 11
 When rendering, prefer the Direct3D 11 API over anything else if set true. In general, most computers using Windows made past 2010 support this, and Roblox would use this as default anyway meaning you are probably already using D3D11 if you are on Windows. Incompatible on MacOS and Linux.
-```json
+```text
     "FFlagDebugGraphicsPreferD3D11": false
 ```
 
 ### Prefer Vulkan
 When true, forces the rendering API to use Vulkan, the successor of OpenGL, unlike D3D11 Vulkan supports MacOS through the MoltenVK translation layer and Linux natively supports it. It is considered to be more performant than D3D11 though it is somewhat less stable with display issues such as HDR incompatibility .
 
-```json
+```text
     "FFlagDebugGraphicsPreferVulkan": false
 ```
 
@@ -68,26 +68,28 @@ An older rendering engine, and is often used as a fallback API when the current 
 ### Gray Sky
 Sets the sky to be gray, or not. Only works on games that use Roblox's default skybox
 
-```json
+```text
     "FFlagDebugSkyGray": false
 ```
 
 ### Pause Voxelizer
 When true while using voxel lighting (NO LONGER POSSIBLE USING ALLOWLIST), removes all shadows and lighting. This makes some games far darker or brighter than expected. 
+
 ```json
     "DFFlagDebugPauseVoxelizer": false
 ```
 
 ### FRM Quality Override
 Controls graphics similarily to the graphics slider in Roblox. Uses the old 21 graphics level values (which is why having value of 1 on this flag is lower quality than the actual first graphics level on the slider). Due to how the graphics setting works also controls the MSAA, SSAO and PostFx levels.
-```json
+
+```text
     "DFIntDebugFRMQualityLevelOverride": 0
 ```
 
 ### Min/Max Grass Distance
 Controls how short or tall grass can be. Only applies to Roblox's own grass model.
 
-```json
+```text
     "FIntFRMMaxGrassDistance": 290,
     "FIntFRMMinGrassDistance": 100
 ```
@@ -100,4 +102,4 @@ Flemish for his [repository](https://github.com/LeventGameing/allowlist/blob/mai
 
 [Bloxstrap Wiki](https://github.com/bloxstraplabs/bloxstrap/wiki)
 
-###### V1
+###### V1.0.1
