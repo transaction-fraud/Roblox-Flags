@@ -108,4 +108,4 @@ Flemish for his [repository](https://github.com/LeventGameing/allowlist/blob/mai
 
 [Bloxstrap Wiki](https://github.com/bloxstraplabs/bloxstrap/wiki)
 
-###### V1.0.1
+###### V1.0.2
