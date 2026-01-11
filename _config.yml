@@ -5,4 +5,21 @@ toc:
   min_level: 2
   max_level: 3
 
+nav:
+  - Home: index.md
+  - Roblox Flags:
+      - "CSG Level of Detail": index.md#csg-level-of-detail-lod-switching-distance
+      - "Handle Alt Enter": index.md#handle-alt-enter-manually
+      - "Texture Quality": index.md#texture-quality-override
+      - "Force MSAA Sampling": index.md#force-msaa-sampling
+      - "Disable DPI Scaling": index.md#disable-dpi-scaling
+      - "Prefer DirectX 11": index.md#prefer-directx-11
+      - "Prefer Vulkan": index.md#prefer-vulkan
+      - "Prefer OpenGL": index.md#prefer-opengl
+      - "Gray Sky": index.md#gray-sky
+      - "Pause Voxelizer": index.md#pause-voxelizer
+      - "FRM Quality Override": index.md#frm-quality-override
+      - "Min/Max Grass Distance": index.md#minmax-grass-distance
+      - "Special Thanks / Sources": index.md#special-thanks--sources
+
 search_enabled: true
