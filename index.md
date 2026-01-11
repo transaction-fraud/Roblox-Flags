@@ -3,8 +3,6 @@ layout: default
 title: Roblox Flags — Complete List of Fast Flags
 description: A repository documenting every available allowlisted Roblox fast flag, their default values, and explanations.
 ---
-
-# Roblox-Flags
 ![CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)
 
 A repository for every single available flag in the allowlist and an explanation of what they do.
